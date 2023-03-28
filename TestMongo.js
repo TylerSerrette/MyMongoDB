@@ -35,8 +35,8 @@ console.log("Looking for: " + searchKey);
 
 async function run() {
   try {
-    const database = client.db('TylerSerretteCMPS415');
-    const parts = database.collection('TMSdb.CMPS415');
+    const database = client.db('TMSdb');
+    const parts = database.collection('CMPS415');
 
     // Hardwired Query for a part that has partID '12345'
     // const query = { partID: '12345' };
